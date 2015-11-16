@@ -10,15 +10,16 @@
 </head>
 
 <body>
-   
+
     <header>
         <div id="header-container">
             <nav id="super-header">
                 <ul class="nav-clean">
-                    <li><a href="#">Welcome</a></li>
-                    <li><a href="#">Our Macarons</a></li>
-                    <li><a href="#">Gifts & Parties</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Welcome</a></li>
+                    <li><a href="our_macarons.html">Our Macarons</a></li>
+                    <li><a href="gift_parties.html">Gifts & Parties</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><div id="google_translate_element"></div></li>
                 </ul>
             </nav>
         </div>
@@ -28,32 +29,32 @@
         <div class="hero-image-container">
             <img src="assets/images/our-macarons-image.png" />
         </div>
-     <div id="below-hero-image-container">
-        <section id='our-macarons-midtext'>
-            <h2>Our Macarons are freshly made by hand</h2>
-            <p>The vivid hues of our unique macarons reflect the natural flavors and essences that infuse the ganache filling of these delicious almond cookies-each has it's own personality, and all of them are made to savour for their delicacy and unique character. </p>
-        </section>
-        <div id="macarons-list">
-           <h2>Classics</h2>
-            <ul>
-            <li>caribbean chocolate</li>
-                <li>coconut</li>
-                <li>colombian coffee</li>
-                <li>green tea</li>
-                <li>lemon</li>
-                <li>madagascar vanilla</li>
-                <li>passion fruit</li>
-                <li>rose</li>
-                <li>raspbery</li>
-                <li>tiffany blue</li>
-                <li>sicilian pistachio</li>
-                <li>sweet wedding almond</li>
-                <li>violet cassis</li>
-                <li>salted caramel</li>
-            </ul>
-            <p>After purchase we recommend keeping macarons in the refigerator,let them come to room temperature before serving - about 10 minutes. For best defustation, our macarons should be consumed within 3 days. </p>
+        <div id="below-hero-image-container">
+            <section id='our-macarons-midtext'>
+                <h2>Our Macarons are freshly made by hand</h2>
+                <p>The vivid hues of our unique macarons reflect the natural flavors and essences that infuse the ganache filling of these delicious almond cookies-each has it's own personality, and all of them are made to savour for their delicacy and unique character. </p>
+            </section>
+            <div id="macarons-list">
+                <h2>Classics</h2>
+                <ul>
+                    <li>caribbean chocolate</li>
+                    <li>coconut</li>
+                    <li>colombian coffee</li>
+                    <li>green tea</li>
+                    <li>lemon</li>
+                    <li>madagascar vanilla</li>
+                    <li>passion fruit</li>
+                    <li>rose</li>
+                    <li>raspbery</li>
+                    <li>tiffany blue</li>
+                    <li>sicilian pistachio</li>
+                    <li>sweet wedding almond</li>
+                    <li>violet cassis</li>
+                    <li>salted caramel</li>
+                </ul>
+                <p>After purchase we recommend keeping macarons in the refigerator,let them come to room temperature before serving - about 10 minutes. For best defustation, our macarons should be consumed within 3 days. </p>
+            </div>
         </div>
-     </div>
     </main>
     <!-- End of Main Body -->
     <footer>
@@ -69,3 +70,16 @@
                 <span><img src="assets/images/twitter.png" alt="twitter"></span></p>
         </section>
     </footer>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'es,fr',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

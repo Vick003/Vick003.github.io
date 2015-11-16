@@ -16,9 +16,10 @@
             <nav id="super-header">
                 <ul class="nav-clean">
                     <li><a href="index.html">Welcome</a></li>
-                    <li><a href="#">Our Macarons</a></li>
-                    <li><a href="#">Gifts & Parties</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="our_macarons.html">Our Macarons</a></li>
+                    <li><a href="gift_parties.html">Gifts & Parties</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><div id="google_translate_element"></div></li>
                 </ul>
             </nav>
         </div>
@@ -63,20 +64,30 @@
         </div>
     </main>
     <footer>
-        
-            <section id="email">
-                <p><img src="assets/images/mail.png" alt="email"><span>order@mboutique</span></p>
-            </section>
-            <section id="phone-section">
-                <p id="phone"><img src="assets/images/phone.png" alt="phone"><span>949.800-3111</span></p>
-                <p id="copyright-text">Copyright @ 2014 MBoutique. All rights reserved.</p>
-            </section>
-            <section id="social-media">
-                <p>Follow us<span><img src="assets/images/facebook.png" alt="facebook"></span>
-                    <span><img src="assets/images/twitter.png" alt="twitter"></span></p>
-            </section>
-       
+
+        <section id="email">
+            <p><img src="assets/images/mail.png" alt="email"><span>order@mboutique</span></p>
+        </section>
+        <section id="phone-section">
+            <p id="phone"><img src="assets/images/phone.png" alt="phone"><span>949.800-3111</span></p>
+            <p id="copyright-text">Copyright @ 2014 MBoutique. All rights reserved.</p>
+        </section>
+        <section id="social-media">
+            <p>Follow us<span><img src="assets/images/facebook.png" alt="facebook"></span>
+                <span><img src="assets/images/twitter.png" alt="twitter"></span></p>
+        </section>
+
     </footer>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'es,fr',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 
 </html>
