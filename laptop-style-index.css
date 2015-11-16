@@ -1,0 +1,82 @@
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    height: auto;
+    text-align: left;
+}
+
+/***** Hero Image and Header *****/
+.hero-image-container img {
+    width: 100vw;
+}
+
+header {
+    width: 100vw;
+}
+
+#header-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: none;
+}
+.nav-clean {
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    position: relative;
+       background: url('assets/images/logo.png')no-repeat top center;
+    background-color: #fffabe;
+}
+
+
+#header-container {
+    width: 100%;
+    height: 100%;
+}
+
+#super-header {
+    right: 98px;
+    height: 3vh;
+    width: 100vw;
+    display: inline;
+    bottom: 13px;
+    text-align: center;
+}
+
+#header-container li {
+    display: inline;
+    width: 18vw;
+    float: none;
+    padding: 0;
+    margin: 6px;
+    
+}
+#header-container a {
+    font-size: .8em;
+    margin:0;
+    padding:0;
+}
+
+/********Body***********/
+#macarons-img-wrapper {
+    display: none;
+    
+}
+
+#mid-section {
+    padding-left: 6vw;
+    width: 100vw;
+}
+
+#mid-section-text {
+  width: 100vw;
+}
+
+.weekday {
+    min-width: 10vw;
+    display: inline-block;
+}
+

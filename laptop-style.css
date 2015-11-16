@@ -1,0 +1,95 @@
+body {
+    overflow-x: hidden;
+}
+#mac-bg-wrapper{
+    display: none;
+}
+
+#visit-us-wrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#visit-us-wrapper h3 {
+    font-size: 1em;
+}
+
+#visit-us-wrapper p {
+    font-size: .8em;
+}
+
+/***** Hero Image and Header *****/
+.hero-image-container img {
+    width: 100vw;
+}
+
+header {
+    width: 100vw;
+}
+
+#header-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: none;
+}
+.nav-clean {
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    position: relative;
+       background: url('assets/images/logo.png')no-repeat top center;
+    background-color: #fffabe;
+}
+
+
+#header-container {
+    width: 100%;
+    height: 100%;
+}
+
+#super-header {
+    right: 98px;
+    height: 3vh;
+    width: 100vw;
+    display: inline;
+    bottom: 13px;
+    text-align: center;
+}
+
+#header-container li {
+    display: inline;
+    width: 18vw;
+    float: none;
+    padding: 0;
+    margin: 6px;
+    
+}
+#header-container a {
+    font-size: .8em;
+    margin:0;
+    padding:0;
+}
+
+/*******Body Section*******/
+#visit-us-wrapper, #contact-wrapper {
+    width: 100vw;
+    text-align: center;
+}
+
+
+
+/*****End of Body*******/
+
+/*****Footer*******/
+footer {
+    width: 100vw;
+    text-align: center;
+}
+
+
+
+
+

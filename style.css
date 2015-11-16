@@ -1,0 +1,381 @@
+/* Add your CSS here */
+
+html,
+body {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 72px;
+    position: relative;
+    background-color: #fffabe;
+}
+
+#header-container {
+    position: absolute;
+    width: 850px;
+    height: 50px;
+    background: url('assets/images/logo.png')no-repeat left center;
+    top: 15px;
+    left: 80px;
+}
+
+#super-header {
+    position: absolute;
+    height: auto;
+    width: auto;
+    right: 40px;
+}
+
+.nav-clean {
+    list-style-type: none;
+}
+
+.nav-clean li {
+    float: left;
+    margin-right: 20px;
+}
+
+.nav-clean li a {
+    font-size: 16px;
+    color: #515151;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.nav-clean li a:hover {
+    color: #d42551;
+}
+
+#hero-image-container {
+    height: auto;
+    width: auto;
+}
+
+#mid-section {
+    position: relative;
+    height: 600px;
+}
+
+#macarons-img-wrapper {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 155px;
+    left: 65px;
+}
+
+#mid-section-text {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 600px;
+}
+
+#mid-section-text h3 {
+    font-size: 20px;
+    color: #6a6969;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+#mid-section-text p {
+    font-size: 14px;
+    color: #6a6969;
+}
+
+.space-out-bottom {
+    margin-bottom: 40px;
+}
+
+#flavor-of-day-section {
+    height: 150px;
+}
+
+.weekday {
+    position: relative;
+    display: inline-block;
+    background-color: #fffabe;
+    width: 126px;
+    height: 140px;
+    margin-right: 6px;
+    margin-top: 2px;
+    padding-left: 6px;
+}
+
+.weekday p {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #6a6969;
+    margin-bottom: 22px;
+}
+
+.upper-icon {
+    position: absolute;
+    top: 90px;
+    left: 96px;
+}
+
+.lower-icon {
+    position: absolute;
+    right: 12px;
+    bottom: 3px;
+    z-index: 2;
+}
+
+.push-down {
+    margin-top: 31px;
+    margin-bottom: 15px !important;
+}
+
+.strong-text {
+    position: relative;
+    z-index: 1;
+}
+
+.stabilizer {
+    position: absolute;
+    width: inherit;
+    height: 32px;
+    bottom: -5px;
+    right: 3px;
+    background-color: inherit;
+}
+
+#monday {
+    background-color: #824603;
+}
+
+#wednesday {
+    background-color: #df5277;
+}
+
+#friday {
+    background-color: #a2304e;
+}
+
+#sunday {
+    background-color: #c39005;
+}
+
+main {
+    margin-bottom: 45px;
+}
+
+footer {
+    position: relative;
+    width: 1000px;
+    height: 80px;
+    background-color: #df5277;
+}
+
+section {
+    color: white;
+    width: 200px;
+    height: 60px;
+    position: absolute;
+}
+
+section p {
+    color: white;
+    font-size: 12px;
+}
+
+#email {
+    top: 5px;
+    left: 50px;
+}
+
+#email span {
+    margin-left: 10px;
+}
+
+#phone-section {
+    width: 300px;
+    left: 334px;
+    bottom: 10px;
+}
+
+#phone {
+    margin-left: 92px;
+}
+
+#phone span {
+    margin-left: 10px;
+}
+
+#copyright-text {
+    margin-left: 7px;
+}
+
+#social-media {
+    right: 10px;
+    top: 5px;
+}
+
+#social-media span {
+    margin-left: 14px;
+}
+
+#our-macarons-midtext {
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    width: inherit;
+    height: auto;
+    position: static;
+}
+
+#below-hero-image-container {
+    width: 950px;
+    height: 495px;
+    padding-left: 2vw;
+    background-image: url(assets/images/our-macarons-background.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#our-macarons-midtext h2 {
+    color: #6a6969;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#our-macarons-midtext p {
+    color: #6a6969;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#macarons-list h2 {
+    color: #6a6969;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3.75vh;
+}
+
+#macarons-list li,
+#macarons-list p {
+    color: #6a6969;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#macarons-list p {
+    margin-top: 4.5vh;
+    margin-bottom: 1vh;
+}
+
+#gift_parties_mid_section {
+    height: 600px;
+    background-image: url(assets/images/gifts-parties-background.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+#gift_parties_mid_section p,
+#gift_parties_mid_section li {
+    color: #6a6969;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gift_parties_mid_section h3 {
+    font-size: 20px;
+    color: #6a6969;
+    margin: 45px 0;
+    font-weight: 500;
+}
+
+#gift_parties_mid_section a {
+    color: #df5277;
+    text-decoration: none;
+}
+
+#section-below-hero-for-contact{
+    width: inherit;
+    min-height: 450px;
+    color: #6a6969;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#section-below-hero-for-contact h3{font-size: 20px;
+    margin: 26px 0;
+}
+
+.contact-mid-section {
+    width: 327px;
+    max-height: 475px;
+    display: inline-block;
+    
+}
+
+#contact-wrapper input {
+    width: 310px;
+    height: 35px;
+    background-color: #f5f5f5;
+    margin: 0px 0 14px 1px;
+}
+
+#contact-wrapper textarea {
+    width: 310px;
+    height: 70px;
+    background-color: #f5f5f5;
+    margin: 0px 0 6px 1px;
+}
+
+#contact-wrapper button {
+    width: 155px;
+    height: 35px;
+    background-color: #f5f5f5;
+    margin-left: 165px;
+}
+
+#visit-us-wrapper p {
+    font-size: 14px;
+    margin-bottom: 38px;
+}
+
+#visit-us-wrapper h3{
+    font-size: 20px;
+    margin-bottom: 29px;
+}
+
+#visit-us-wrapper a {
+    text-decoration: none;
+    color: #df5277;
+}
+
+
+#mac-bg-wrapper img {
+  
+ padding-left: 65px;
+}
+/*Had a lot of trouble with mobile version, will keep working at it but will just turn it in for now because the desktop version is done.*/
+@media screen and (max-width: 375px) {
+    body {
+        width: 100vw;
+        min-height: 100vh;
+        margin: 0;
+    }
+    
+    #visit-us-wrapper {
+        width: 100vw;
+        
+    }
+ 
+
+    
+}
+
+
+
+
+

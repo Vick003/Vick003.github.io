@@ -1,0 +1,81 @@
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/***** Hero Image and Header *****/
+.hero-image-container img {
+    width: 100%;
+}
+#header-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: none;
+}
+.nav-clean {
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    position: relative;
+       background: url('assets/images/logo.png')no-repeat top center;
+    background-color: #fffabe;
+}
+#header-container {
+    width: 100%;
+    height: 100%;
+}
+#super-header {
+    right: 98px;
+    height: 3vh;
+    width: 100vw;
+    display: inline;
+    bottom: 13px;
+}
+#header-container li {
+    display: inline;
+    width: 18vw;
+    float: none;
+    padding: 0;
+    margin: 6px;
+    
+}
+#header-container a {
+    font-size: .8em;
+    margin:0;
+    padding:0;
+}
+/*****Footer*******/
+footer {
+    width: 100vw;
+    text-align: center;
+}
+
+#phone-section {
+    left: 30px;
+    top: 19px;
+}
+
+#social-media {
+    right: 85px;
+    top: 22px;
+}
+
+#phone {
+    width: auto;
+    position: absolute;
+    top: -13px;
+    left: 73px;
+}
+#email p {
+    width: auto;
+    position: absolute;
+    
+}
+
+#copyright-text {
+    margin-left: 31px;
+    margin-top: 40px;
+}
